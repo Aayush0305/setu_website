@@ -32,16 +32,46 @@
     <nav> 
         
         <ul> 
+            <li><a href="#">What we do</a></li>
+            <li id="s"><a href="#"></a></li>
             
+            <li >
+                <a href="#" id="dd1" class="dropdown1">Pilot Projects   </a>
+                <ul id="ddm12" class="dropdown-content1">
+                    <h2>PILOT PROJECTS</h2>
+                    <h3>DISCOVER</h3>
+                    <li ><a href="#">DIKSHA</a></li>
+                    <li><a href="#">SHAKTI</a></li>
+                    <li><a href="#">OLD AGE</a></li>
+                </ul>
+            </li>
             
-            <li><a href="#">What We Do</a></li>
-            <li><a href="#">  </a></li>
-            <li><a href="#">Pilot Project</a></li>
-            <li><a href="#">  </a></li>
-            <li><a href="#">Editorials</a></li>
-            <li><a href="#">  </a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">  </a></li>
+            <li id="s"><a href="#">  </a></li>
+            <li>  
+                <a href="#" id="dd12" class="dropdown1">Editorials  </a>
+                <ul id="ddm12" class="dropdown-content1">
+                    <h2>EDITORIALS</h2>
+                    <h3>DISCOVER</h3>
+                    <li><a href="#">NEWSLETTERS</a></li>
+                    <li><a href="#">WEEKLY MAGAZINES</a></li>
+                    <li><a href="#">BOOKS AND MOVIE REVIEW</a></li>
+                    <li><a href="#">REPORTS</a></li>
+                </ul>
+            </li>
+
+            <li id="s"><a href="#">  </a></li>
+            <li><li>
+                <a href="#" id="dd12" class="dropdown1">Events  </a>
+                <ul id="ddm12" class="dropdown-content1">
+                    <h2>EVENTS</h2>
+                    <h3>DISCOVER</h3>
+                    <li><a href="#">UPCOMING EVENTS</a></li>
+                    <li><a href="#">EXPLORE PAST</a></li>
+                    <li><a href="#">CAMPAIGN</a></li>
+                    
+                </ul>
+            </li></li>
+            <li id="s"><a href="#">  </a></li>
 
         </ul>
     </nav>
@@ -82,7 +112,7 @@
                 </section>
             </div>
 
-            <aside class="right-column">
+            <div class="right-column">
                 <h2 id="notice_head">Notice Board</h2>
                 <section class="notice-board">
                     
@@ -107,7 +137,7 @@
                 </div>
                         
                 </section>
-            </aside>
+            </div>
         </div>
     </main>
 
@@ -141,6 +171,7 @@
                 menuButton.style.display = "none";
             }
         }
+        
         window.onclick = function(event) {
             var menuButton = document.querySelector(".menu-button");
             if (!event.target.closest('.menu-button') && !event.target.closest('#dropdownMenu')) {
@@ -152,6 +183,9 @@
                 }
             }
         }
+        
+
+       
 
         let slideIndex = 0;
         showSlides();
