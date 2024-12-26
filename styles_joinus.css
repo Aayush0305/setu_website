@@ -641,3 +641,65 @@ box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
     cursor: pointer;
 }
 .eligibility div{background-color:white;}
+
+/* styles of contact section */
+.box {
+    background: rgba(23, 161, 250, 0.07);   
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.contentc {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background: rgba(189, 163, 24, 0.76);
+    line-height: 2.5;
+}
+.title
+{
+    margin-bottom: 5%;
+}
+/* styles of diksha, vridha, seva */
+#spot_head{
+    margin-top: 0;
+    background: rgba(170, 37, 93, 0.03);
+    color:black;
+    text-align: center;
+    font-family: "Indie Flower";
+}
+.student-spotlights{
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.spotlight {
+    height: 350px;
+    position: absolute;
+    color: #AA255D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(170, 37, 93, 0.03);
+}
+.spotlight div{
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation2 10s linear infinite;
+    -webkit-animation: my-animation2 10s linear infinite;
+    animation: my-animation2 10s linear infinite;
+}
+
+
+.student-spotlights img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
